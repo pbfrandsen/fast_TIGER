@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+	17DA1EDB196578FF007735F3 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 83ABBFA81A1D21F1004A7D52 /* TIGER-rates */;
+		activeTarget = 17DA1EE2196578FF007735F3 /* TIGER-rates */;
+		breakpoints = (
+			83CB753C1A1E9E4400790F2C /* site_pattern.h:16 */,
+		);
+		codeSenseManager = 83ABBFAF1A1D2217004A7D52 /* Code sense */;
+		executables = (
+			83ABBFA81A1D21F1004A7D52 /* TIGER-rates */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					529,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					190,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 438539048;
+			PBXWorkspaceStateSaveDate = 438539048;
+		};
+		perUserProjectItems = {
+			836EE3B01A226E76006A92A3 = 836EE3B01A226E76006A92A3 /* PBXTextBookmark */;
+			836FC7071A23852B0043C44D = 836FC7071A23852B0043C44D /* PBXTextBookmark */;
+			836FC7161A23852B0043C44D = 836FC7161A23852B0043C44D /* PBXTextBookmark */;
+			83ABBFC41A1D2750004A7D52 = 83ABBFC41A1D2750004A7D52 /* PBXTextBookmark */;
+			83FF94321A239325007D7FA8 = 83FF94321A239325007D7FA8 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 83ABBFAE1A1D2217004A7D52 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	17DA1EE2196578FF007735F3 /* TIGER-rates */ = {
+		activeExec = 0;
+		executables = (
+			83ABBFA81A1D21F1004A7D52 /* TIGER-rates */,
+		);
+	};
+	17DA1EE619657900007735F3 /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {707, 3003}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 464}";
+		};
+	};
+	17DA1EE819657900007735F3 /* DAAD_project.1 */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {635, 962}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 770}";
+		};
+	};
+	830C82BA1A213DEF00879AA1 /* faststring2.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = faststring2.h;
+		path = "/Daten/Bio/Eigene-Arbeiten/Paper-InArbeit/Frandsen-et-al-2014/daad/DAAD_project/../faststring2.h";
+		sourceTree = "<absolute>";
+	};
+	836EE3B01A226E76006A92A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 830C82BA1A213DEF00879AA1 /* faststring2.h */;
+		name = "faststring2.h: 1487";
+		rLen = 0;
+		rLoc = 33476;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 33162;
+	};
+	836FC7071A23852B0043C44D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 17DA1EE819657900007735F3 /* DAAD_project.1 */;
+		name = "DAAD_project.1: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 770;
+		vrLoc = 0;
+	};
+	836FC7161A23852B0043C44D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 17DA1EE619657900007735F3 /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 519;
+		vrLoc = 0;
+	};
+	83ABBFA81A1D21F1004A7D52 /* TIGER-rates */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "TIGER-rates";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	83ABBFAE1A1D2217004A7D52 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	83ABBFAF1A1D2217004A7D52 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	83ABBFB91A1D2253004A7D52 /* site_pattern.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = site_pattern.h;
+		path = "/Daten/Bio/Eigene-Arbeiten/Paper-InArbeit/Frandsen-et-al-2014/daad/DAAD_project/../site_pattern.h";
+		sourceTree = "<absolute>";
+	};
+	83ABBFC41A1D2750004A7D52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 83ABBFB91A1D2253004A7D52 /* site_pattern.h */;
+		name = "site_pattern.h: 23";
+		rLen = 0;
+		rLoc = 410;
+		rType = 0;
+		vrLen = 445;
+		vrLoc = 169;
+	};
+	83ABBFD41A1D51EB004A7D52 /* site_pattern.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = site_pattern.h;
+		path = "/Daten/Bio/Eigene-Arbeiten/Paper-InArbeit/Frandsen-et-al-2014/daad/DAAD_project/../site_pattern.h";
+		sourceTree = "<absolute>";
+	};
+	83CB753C1A1E9E4400790F2C /* site_pattern.h:16 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 83ABBFD41A1D51EB004A7D52 /* site_pattern.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 16;
+		modificationTime = 438539059.092417;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	83FF94321A239325007D7FA8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 17DA1EE619657900007735F3 /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+}

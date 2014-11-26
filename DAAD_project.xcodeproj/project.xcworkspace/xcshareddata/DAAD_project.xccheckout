@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>211578BB-E73E-43E6-9668-BAC812EA0456</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DAAD_project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>809FDA1F5299ABAC6D2DEAF13787E5C2CCF3885C</key>
+		<string>https://github.com/pbfrandsen/daad.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DAAD_project.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>809FDA1F5299ABAC6D2DEAF13787E5C2CCF3885C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pbfrandsen/daad.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>809FDA1F5299ABAC6D2DEAF13787E5C2CCF3885C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>809FDA1F5299ABAC6D2DEAF13787E5C2CCF3885C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>daad</string>
+		</dict>
+	</array>
+</dict>
+</plist>
