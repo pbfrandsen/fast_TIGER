@@ -1,6 +1,8 @@
 TIGER-rates
 ===========
 
+[![DOI](https://zenodo.org/badge/7416/pbfrandsen/fast_TIGER.png)](http://dx.doi.org/10.5281/zenodo.12914)
+
 The TIGER-rates software calculates the TIGER site rates introduced 
 in (http://dx.doi.org/10.1093/sysbio/syr064) for a multiple sequence alignment.
 
