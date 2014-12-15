@@ -12,20 +12,24 @@
 	<dict>
 		<key>809FDA1F5299ABAC6D2DEAF13787E5C2CCF3885C</key>
 		<string>https://github.com/pbfrandsen/daad.git</string>
+		<key>993C8064053A50D40A2081C43D6083A9FC09417B</key>
+		<string>https://github.com/pbfrandsen/fast_TIGER.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>DAAD_project.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>809FDA1F5299ABAC6D2DEAF13787E5C2CCF3885C</key>
+		<string>../../../daad</string>
+		<key>993C8064053A50D40A2081C43D6083A9FC09417B</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/pbfrandsen/daad.git</string>
+	<string>https://github.com/pbfrandsen/fast_TIGER.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>809FDA1F5299ABAC6D2DEAF13787E5C2CCF3885C</string>
+	<string>993C8064053A50D40A2081C43D6083A9FC09417B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>809FDA1F5299ABAC6D2DEAF13787E5C2CCF3885C</string>
 			<key>IDESourceControlWCCName</key>
 			<string>daad</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>993C8064053A50D40A2081C43D6083A9FC09417B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>fast_TIGER</string>
 		</dict>
 	</array>
 </dict>

@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		17DA1EE319657900007735F3 /* TIGER-rates */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TIGER-rates"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DA1EE319657900007735F3 /* fast_TIGER */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fast_TIGER; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DA1EE619657900007735F3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		17DA1EE819657900007735F3 /* DAAD_project.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DAAD_project.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 		17DA1EE419657900007735F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17DA1EE319657900007735F3 /* TIGER-rates */,
+				17DA1EE319657900007735F3 /* fast_TIGER */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,7 +83,7 @@
 			);
 			name = "TIGER-rates";
 			productName = DAAD_project;
-			productReference = 17DA1EE319657900007735F3 /* TIGER-rates */;
+			productReference = 17DA1EE319657900007735F3 /* fast_TIGER */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -197,14 +197,14 @@
 		17DA1EED19657900007735F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = fast_TIGER;
 			};
 			name = Debug;
 		};
 		17DA1EEE19657900007735F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = fast_TIGER;
 			};
 			name = Release;
 		};
