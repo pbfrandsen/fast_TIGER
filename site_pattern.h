@@ -174,6 +174,140 @@ public:
         return returnable_vector_of_bitsets;
     }
     
+    std::vector<CSplit> gen_morph_pattern_bitsets()
+    {
+        // figure out the length of the site pattern
+        unsigned long length = pattern.length();
+        int i;
+        
+        // initiate ten different morphological CSplits that we'll return in the vector
+        CSplit split_0(length);
+        CSplit split_1(length);
+        CSplit split_2(length);
+        CSplit split_3(length);
+        CSplit split_4(length);
+        //        CSplit split_5(length);
+        //        CSplit split_6(length);
+        //        CSplit split_7(length);
+        //        CSplit split_8(length);
+        //        CSplit split_9(length);
+        
+        
+        for (i = 0; i < length; ++i)
+        {
+            if (pattern[i] == '0')
+            {
+                split_0.set(i);
+                //                std::cout << "set as A" << std::endl;
+            }
+            else if (pattern[i] == '1')
+            {
+                split_1.set(i);
+                //                std::cout << "set as C" << std::endl;
+            }
+            else if (pattern[i] == '2')
+            {
+                split_2.set(i);
+                //                std::cout << "set as G" << std::endl;
+            }
+            else if (pattern[i] == '3')
+            {
+                split_3.set(i);
+                //                std::cout << "set as T" << std::endl;
+            }
+            else if (pattern[i] == '4')
+            {
+                split_4.set(i);
+                //                std::cout << "set as T" << std::endl;
+            }
+            //            else if (pattern[i] == '5')
+            //            {
+            //                split_5.set(i);
+            //                //                std::cout << "set as T" << std::endl;
+            //            }
+            //            else if (pattern[i] == '6')
+            //            {
+            //                split_6.set(i);
+            //                //                std::cout << "set as T" << std::endl;
+            //            }
+            //            else if (pattern[i] == '7')
+            //            {
+            //                split_7.set(i);
+            //                //                std::cout << "set as T" << std::endl;
+            //            }
+            //            else if (pattern[i] == '8')
+            //            {
+            //                split_8.set(i);
+            //                //                std::cout << "set as T" << std::endl;
+            //            }
+            //            else if (pattern[i] == '9')
+            //            {
+            //                split_9.set(i);
+            //                //                std::cout << "set as T" << std::endl;
+            //            }
+            else if (pattern[i] == '-')
+            {
+                split_0.set(i);
+                split_1.set(i);
+                split_2.set(i);
+                split_3.set(i);
+                split_4.set(i);
+            }
+            else if (pattern[i] == 'N')
+            {
+                split_0.set(i);
+                split_1.set(i);
+                split_2.set(i);
+                split_3.set(i);
+                split_4.set(i);
+            }
+            else if (pattern[i] == 'n')
+            {
+                split_0.set(i);
+                split_1.set(i);
+                split_2.set(i);
+                split_3.set(i);
+                split_4.set(i);
+            }
+            else if (pattern[i] == '?')
+            {
+                split_0.set(i);
+                split_1.set(i);
+                split_2.set(i);
+                split_3.set(i);
+                split_4.set(i);
+            }
+        }
+        
+        // Check if site is full of ambig characters, if it is, flag it as empty
+        if (split_0.none() & split_1.none() & split_2.none() & split_3.none() & split_4.none())
+            empty = true;
+        
+        // Create the flipped splits to check if site is invariant or empty.
+        CSplit split_0_flip = split_0;
+        split_0_flip.flip();
+        CSplit split_1_flip = split_1;
+        split_1_flip.flip();
+        CSplit split_2_flip = split_2;
+        split_2_flip.flip();
+        CSplit split_3_flip = split_3;
+        split_3_flip.flip();
+        CSplit split_4_flip = split_4;
+        split_4_flip.flip();
+        
+        // Check to see if site is invariant, if it is, it's pa will always be 1.
+        if (split_0_flip.none() || split_1_flip.none() || split_2_flip.none() || split_3_flip.none() || split_4_flip.none())
+            invariant = true;
+        
+        
+        returnable_vector_of_bitsets.push_back(split_0);
+        returnable_vector_of_bitsets.push_back(split_1);
+        returnable_vector_of_bitsets.push_back(split_2);
+        returnable_vector_of_bitsets.push_back(split_3);
+        returnable_vector_of_bitsets.push_back(split_4);
+        return returnable_vector_of_bitsets;
+    }
+    
     std::map<char, std::vector<int> > give_pattern_partition()
     {
         return partition_map;
