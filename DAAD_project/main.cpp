@@ -137,14 +137,14 @@ int main(int argc, const char ** argv)
         // by changing the "subset_size" variable.
         if (alignment_length > 500000)
         {
-            unsigned subset_size = 5;
-            unsigned subset_length = alignment_length/subset_size;
+            unsigned subset_length = 10000;
+            unsigned subset_size = alignment_length/subset_length;
             vector<SitePattern> subset_patterns(subset_length);
             // Make the subset of patterns
             for (i = 0; i < subset_length - 1; ++i)
             {
                 subset_patterns[i] = all_patterns[k];
-                k += 5;
+                k += subset_size;
             }
             
             for (i = 0; i < alignment_length; ++i)
