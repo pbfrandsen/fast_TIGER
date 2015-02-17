@@ -1,3 +1,33 @@
+/* fast_TIGER (version 1.0), a program for computing TIGER rates
+ * (TIGER: Tree Independent Generation of Evolutionary Rates).
+ *
+ * Copyright (C) January 2015 by Paul Frandsen and Christoph Mayer
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, see <http://www.gnu.org/licenses/>.
+ *
+ * For any enquiries send an email to
+ * Paul Frandsen: paulbfrandsen@gmail.com
+ * or
+ * Christoph Mayer: c.mayer.zfmk@uni-bonn.de
+ *
+ * When publishing work that is based on the results of Fast_Tiger please cite:
+ * 
+ * Frandsen, P.B., Calcott, B., Mayer, C., Lanfear, R., 2015, Automatic selection of
+ * partitioning schemes for phylogenetic analyses using iterative k-means clustering
+ * of site rates, BMC Evolutionary Biology 15:13.
+ *
+ */
 #ifndef CFILE_H
 #define CFILE_H
 

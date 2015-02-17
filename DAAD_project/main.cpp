@@ -1,10 +1,34 @@
-//
-//  main.cpp
-//  DAAD_project
-//
-//  Created by Paul Frandsen on 7/3/14.
-//  Copyright (c) 2014 Paul Frandsen and Christoph Mayer. All rights reserved.
-//
+/* fast_TIGER (version 1.0), a program for computing TIGER rates
+ * (TIGER: Tree Independent Generation of Evolutionary Rates).
+ *
+ * Copyright (C) January 2015 by Paul Frandsen and Christoph Mayer
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, see <http://www.gnu.org/licenses/>.
+ *
+ * For any enquiries send an email to
+ * Paul Frandsen: paulbfrandsen@gmail.com
+ * or
+ * Christoph Mayer: c.mayer.zfmk@uni-bonn.de
+ *
+ * When publishing work that is based on the results of Fast_Tiger please cite:
+ * 
+ * Frandsen, P.B., Calcott, B., Mayer, C., Lanfear, R., 2015, Automatic selection of
+ * partitioning schemes for phylogenetic analyses using iterative k-means clustering
+ * of site rates, BMC Evolutionary Biology 15:13.
+ *
+ */
+
 
 #include <iostream>
 #include <fstream>
@@ -137,14 +161,14 @@ int main(int argc, const char ** argv)
         // by changing the "subset_size" variable.
         if (alignment_length > 500000)
         {
-            unsigned subset_size = 5;
-            unsigned subset_length = alignment_length/subset_size;
+            unsigned subset_length = 10000;
+            unsigned subset_size = alignment_length/subset_length;
             vector<SitePattern> subset_patterns(subset_length);
             // Make the subset of patterns
             for (i = 0; i < subset_length - 1; ++i)
             {
                 subset_patterns[i] = all_patterns[k];
-                k += 5;
+                k += subset_size;
             }
             
             for (i = 0; i < alignment_length; ++i)
