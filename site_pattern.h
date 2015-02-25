@@ -135,22 +135,22 @@ public:
         
         for (i = 0; i < length; ++i)
         {
-            if (pattern[i] == 'A')
+            if (pattern[i] == 'A' || pattern[i] == 'a')
             {
                 split_A.set(i);
 //                std::cout << "set as A" << std::endl;
             }
-            else if (pattern[i] == 'C')
+            else if (pattern[i] == 'C' || pattern[i] == 'c')
             {
                 split_C.set(i);
 //                std::cout << "set as C" << std::endl;
             }
-            else if (pattern[i] == 'G')
+            else if (pattern[i] == 'G' || pattern[i] == 'g')
             {
                 split_G.set(i);
 //                std::cout << "set as G" << std::endl;
             }
-            else if (pattern[i] == 'T')
+            else if (pattern[i] == 'T' || pattern[i] == 't')
             {
                 split_T.set(i);
 //                std::cout << "set as T" << std::endl;
