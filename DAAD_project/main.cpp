@@ -32,6 +32,7 @@
 
 #include <iostream>
 #include <fstream>
+#include <iomanip>
 #include "../CSequences2.h"
 #include "../faststring2.h"
 #include "../site_pattern.h"
@@ -219,6 +220,8 @@ int main(int argc, const char ** argv)
         rates_name.push_back('t');
         ofstream rates_file;
         rates_file.open(rates_name.c_str());
+
+        rates_file << fixed << setprecision(6);
         
         copy(site_rates.begin(), site_rates.end(), ostream_iterator<double>(rates_file, "\n"));
 //        vector <int> cluster_assigns;
